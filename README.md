@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100" src="https://mertcendik.org/assets/images/logo.png" alt="Mert Çendik">
+  <img width="100" src="https://mertcendik.org/assets/images/logo.png">
 </p>
 
 ## Açıklama
