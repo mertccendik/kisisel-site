@@ -1,0 +1,321 @@
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+:root {
+    --primary-color: #E7EAFF
+}
+
+body {
+    font-family: "Poppins";
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    color: black
+}
+
+html {
+    background-color: var(--primary-color);
+	scroll-behavior: smooth;
+    color: black
+}
+
+img {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6575ff;
+}
+
+.decoration_nh {
+    text-decoration: underline;
+}
+
+.decoration_nh:hover {
+    text-decoration: underline;
+    color: #6575ff;
+}
+
+.decoration_yh {
+    text-decoration: none;
+}
+
+.decoration_yh:hover {
+    text-decoration: underline;
+    color: #6575ff;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #6575ff;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: #6575ff;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #6575ff;
+}
+
+@media only screen and (min-width: 1000px) {
+    .padding {
+        padding-left: 21%;
+        padding-right: 21%;
+    }
+    .section {
+        padding-top: 1%;
+        padding-bottom: 1%
+    }
+    .head-name {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .padding {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .head-name {
+        font-size: 30px;
+    }
+    .project-right-img, .contact-right-img {
+        display: none;
+    }
+}
+
+.head-name {
+    font-weight: 900;
+}
+
+.head-description {
+    max-width: 45rem;
+    font-size: 18px
+}
+
+.head-description-btn {
+    color: #6576ff
+}
+
+.head-description-btn:hover {
+    color: #6576ff
+}
+
+.coding-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.codings-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.coding {
+    width: 100%;
+    display: inline-block;
+    background-color: #E7EAFF;
+    text-decoration: none;
+    transition: .5s;
+    margin: 1px;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.coding:hover {
+    transform: scale(1.03);
+    background-color: #8693FF;
+    color: unset
+}
+
+.coding-left {
+    display: block;
+    float: left;
+}
+
+.coding-right {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    float: right;
+}
+
+.coding-right-img {
+    opacity: 0.7;
+    padding: 20px 0px;
+}
+
+.coding-right-img-border-radius {
+    border-radius: 999%;
+}
+
+.projects-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project {
+    width: 100%;
+    display: inline-block;
+    background-color: #E7EAFF;
+    text-decoration: none;
+    transition: .5s;
+    margin: 1px;
+    transform: scale(1);
+}
+
+.project:hover {
+    transform: scale(1.03);
+    background-color: #8693FF;
+    color: #000000
+}
+
+.project-left {
+    display: block;
+    float: left;
+}
+
+.project-right {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    float: right;
+}
+
+.project-right-img {
+    opacity: 0.7;
+    padding: 20px 0px;
+}
+
+.project-right-img-border-radius {
+    border-radius: 999%;
+}
+
+.contacts-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contact-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact {
+    width: 100%;
+    display: inline-block;
+    background-color: #E7EAFF;
+    text-decoration: none;
+    transition: .5s;
+    margin: 1px;
+    transform: scale(1);
+}
+
+.contact:hover {
+    transform: scale(1.03);
+    background-color: #8693FF;
+    color: #000000
+}
+
+.contact-left {
+    display: block;
+    float: left;
+}
+
+.contact-right {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    float: right;
+}
+
+.contact-right-img {
+    opacity: 0.7;
+    padding: 6px 0px;
+}
+
+.contact-right-img-border-radius {
+    border-radius: 999%;
+}
+
+#goTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none; 
+	outline: none;
+	background-color: #8693FF;
+    color: #fff;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 999%;
+	font-size: 18px;
+    transition: .5s;
+    transform: scale(1);
+}
+
+.goTop-in {
+	margin-bottom: -5px;
+	margin-top: -5px;
+    transition: .5s;
+    transform: scale(1);
+}
+
+.tippy-box[data-theme~=ws] {
+	color: #fff;
+	box-shadow: 0 0 20px 4px rgba(154, 161, 177, .15), 0 4px 80px -8px rgba(36, 40, 47, .25), 0 4px 4px -2px rgba(91, 94, 105, .15);
+	background-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=top]>.tippy-arrow:before {
+	border-top-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=bottom]>.tippy-arrow:before {
+	border-bottom-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=left]>.tippy-arrow:before {
+	border-left-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=right]>.tippy-arrow:before {
+	border-right-color: black
+}
+
+.tippy-box[data-theme~=ws]>.tippy-backdrop {
+	background-color: black
+}
+
+.tippy-box[data-theme~=ws]>.tippy-svg-arrow {
+	background-color: black;
+	fill: black
+}
+
+.badge-beta {
+    font-size: 13px;
+    background-color: #6576ff;
+    color: #fff;
+    padding: 2px 5px;
+}
